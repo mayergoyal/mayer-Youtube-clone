@@ -256,15 +256,13 @@ function VideoPage() {
         >
           <video
             ref={videoRef}
-             //src={`http://localhost:5000/${vv?.filePath}`}
-            src={`https://youtubeclone-nullclass.onrender.com/${vv?.filePath}`}
+            //src={`http://localhost:5000/${vv?.filePath}`}
+            src={`https://mayer-youtube-clone.onrender.com/${vv?.filePath}`}
             className="video_ShowVideo_videoPage"
             controls
           ></video>
           {locationAndTemp && (
-            <div className="location-temp-popup">
-              {locationAndTemp}
-            </div>
+            <div className="location-temp-popup">{locationAndTemp}</div>
           )}
           <div className="video_details_videoPage">
             <div className="video_btns_title_VideoPage_cont">
